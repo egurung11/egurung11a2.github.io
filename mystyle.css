@@ -1,0 +1,76 @@
+.id {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+}
+
+.latest {
+    float: left;
+    background-color: blue;
+    display:inline;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.marquee {
+    float: right;
+    width: 100%;
+    direction: left;
+    height: 20px;
+    border: 1px solid #4a4a4a;
+    display:inline;
+    vertical-align: middle;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.martxt:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.main {
+    display: flex;
+    background-color: whitesmoke;
+    border: 1px solid #4a4a4a;
+    width: 82%;
+}
+
+.text {
+   margin-left: 10px;
+    margin-right: 50px;
+    color: black;
+}
+
+.h3 {
+    font-size: 18px;
+}
+
+.date {
+    font-size: 13px;
+    color: gray;
+}
+
+.article {
+  line-height: 1.4;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    padding: 10px;
+    position: relative;
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_transparent.asp */
+.pic:hover .caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    float: left;
+    opacity: 1;
+}
